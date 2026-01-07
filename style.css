@@ -1,0 +1,53 @@
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.main {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Navbar */
+
+.nav-link {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.link {
+    list-style: none;
+}
+
+.link a {
+    text-decoration: none;
+    font-size: large;
+}
+
+.logo{
+    font-size: 35px;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbutton{
+    padding: 20px 40px;
+    background-color: #FD6E0A;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.navbutton:hover{
+    background-color: yellowgreen;
+    color: blueviolet;
+}
