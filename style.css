@@ -1,13 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .open-sans {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-}
-
-.main {
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 /* Navbar */
@@ -35,9 +33,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
+    background-color: #FFF8F3;
+    margin: 0 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.navbutton{
+.btn{
     padding: 20px 40px;
     background-color: #FD6E0A;
     color: white;
@@ -47,7 +50,121 @@
     cursor: pointer;
 }
 
-.navbutton:hover{
+.btn:hover{
     background-color: yellowgreen;
     color: blueviolet;
+}
+
+.main{
+    background: url(./images/developer.png), url(./images/header_bg.png), #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: left top, right bottom;
+    
+}
+
+/* Bannar-start */
+.bannar-section{
+    margin: 10px 20px 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bannar-content{
+    width: 585px;
+}
+
+.bannar-content h3{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.bannar-content h2{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.bannar-content p{
+    color: gray;
+    margin: 25px 0;
+}
+
+.bannar-img{
+    width: 550px;
+    vertical-align: middle;
+}
+
+/* -------------- */
+.about{
+    width: 1140px;
+    margin: auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    margin-top: 130px;
+    padding: 130px 150px;
+    
+}
+
+.about-info{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 0;
+}
+
+.about h2{
+    padding: 20px 0;
+    font-size: 50px;
+}
+
+.about p{
+    color: gray;
+    padding: 10px 0;
+}
+
+/* -------------------------- */
+.what-section{
+    width: 1000px;
+    margin: auto;
+    padding: 80px 0;
+}
+.what-section h2{
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+}
+
+.what-section p{
+    text-align: center;
+    color: gray;
+}
+
+.skil-section{
+    margin-left: 260px;
+    margin-right: 260px;
+    margin-bottom: 50px;
+}
+
+.skill-js{
+    width: 220px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+    box-shadow: 0 10px 20px skyblue;
+}
+
+.skill-js h3{
+    margin: 15px 0;
+}
+
+.skill-js p{
+    color: gray;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
