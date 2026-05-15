@@ -5,7 +5,7 @@ const Projects = () => {
     return (
         <section className="px-5 md:px-10 lg:px-20 py-20 bg-white">
 
-            {/* heading */}
+
             <div className="text-center mb-16">
 
                 <h2 className="text-4xl md:text-5xl font-bold text-blue-600">
@@ -18,7 +18,7 @@ const Projects = () => {
 
             <div className="flex flex-col gap-12">
 
-                {/* PROJECT CARD */}
+
                 {[
                     {
                         title: "Qurbani Hat",
@@ -45,10 +45,10 @@ const Projects = () => {
 
                     <div key={index} className="flex flex-col lg:flex-row items-center gap-8 bg-cyan-950 rounded-2xl overflow-hidden shadow-2xl hover:scale-[1.02] transition-all duration-300 p-2">
 
-                        {/* image */}
+
                         <Image src={project.img} height={300} width={600} alt="project" className="w-full lg:w-xl h-auto object-cover rounded-2xl"/>
 
-                        {/* content */}
+
                         <div className="p-8 space-y-5">
 
                             <h3 className="text-3xl text-white font-bold">
@@ -59,7 +59,7 @@ const Projects = () => {
                                 {project.desc}
                             </p>
 
-                            {/* stack */}
+
                             <div className="flex flex-wrap gap-3">
 
                                 <span className="bg-blue-700 text-white px-4 py-2 rounded-full text-sm">
@@ -76,7 +76,7 @@ const Projects = () => {
 
                             </div>
 
-                            {/* buttons */}
+
                             <div className="flex flex-wrap gap-4">
 
                                 <Link href={project.live} target="_blank" className="bg-orange-500 hover:bg-orange-600 transition-all duration-300 text-white px-6 py-3 rounded-xl">
