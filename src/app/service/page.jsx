@@ -10,7 +10,6 @@ const Services = () => {
     return (
         <section className="px-5 md:px-10 lg:px-20 py-20 bg-gray-50">
 
-            {/* heading */}
             <div className="text-center mb-16">
                 <h2 className="text-5xl font-bold text-blue-600">
                     My Services

@@ -80,4 +80,4 @@ const SkillsPage = () => {
     );
 };
 
-export default SkillsPage;
+export default SkillsPage
