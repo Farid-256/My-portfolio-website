@@ -4,7 +4,7 @@ const SkillsPage = () => {
     return (
         <section className="px-5 md:px-10 lg:px-20 py-16 bg-white">
 
-            {/* heading */}
+
             <div className="text-center mb-16">
 
                 <h2 className="text-4xl md:text-5xl font-bold text-blue-600">
@@ -15,10 +15,10 @@ const SkillsPage = () => {
 
             </div>
 
-            {/* grid */}
+  
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
 
-                {/* card */}
+
                 <div className="flex flex-col items-center justify-center bg-cyan-900 rounded-2xl p-6 hover:bg-cyan-950 transition-all duration-300 hover:scale-105">
 
                     <Image src='/assets/Html.jpg' height={80} width={80} alt="html" />
