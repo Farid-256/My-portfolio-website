@@ -8,7 +8,6 @@ const Footer = () => {
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
 
-                {/* left */}
                 <div className="space-y-5">
 
                     <h2 className="text-3xl md:text-4xl font-bold text-white">
@@ -22,7 +21,7 @@ const Footer = () => {
 
                 </div>
 
-                {/* quick links */}
+
                 <div className="space-y-5">
 
                     <h3 className="text-xl md:text-2xl font-bold text-white">
@@ -55,7 +54,7 @@ const Footer = () => {
 
                 </div>
 
-                {/* contact */}
+
                 <div className="space-y-5">
 
                     <h3 className="text-xl md:text-2xl font-bold text-white">
@@ -76,7 +75,7 @@ const Footer = () => {
 
             </div>
 
-            {/* bottom */}
+
             <div className="border-t border-gray-700 mt-12 pt-8 text-center">
 
                 <span className="text-gray-400 text-sm md:text-base flex items-center justify-center gap-2">
