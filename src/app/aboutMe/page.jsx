@@ -4,7 +4,7 @@ const AboutMe = () => {
     return (
         <section className="px-5 md:px-10 lg:px-20 py-16 bg-white">
 
-            {/* heading */}
+
             <div className="text-center mb-16">
 
                 <h2 className="text-4xl md:text-5xl font-bold text-blue-600">
@@ -15,10 +15,10 @@ const AboutMe = () => {
 
             </div>
 
-            {/* content */}
+ 
             <div className="flex flex-col lg:flex-row items-center gap-12">
 
-                {/* image */}
+   
                 <div className="flex justify-center">
 
                     <Image
@@ -26,12 +26,12 @@ const AboutMe = () => {
                         height={600}
                         width={500}
                         alt="about"
-                        className="w-[280px] md:w-[400px] lg:w-[500px] h-auto"
+                        className="w-72 md:w-80 lg:w-xl h-auto"
                     />
 
                 </div>
 
-                {/* text */}
+
                 <div className="space-y-6 text-gray-700 text-base md:text-lg leading-8 text-center lg:text-left">
 
                     <p>
@@ -63,4 +63,4 @@ const AboutMe = () => {
     );
 };
 
-export default AboutMe;
+export default AboutMe
