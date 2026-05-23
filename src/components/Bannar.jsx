@@ -48,12 +48,8 @@ const Bannar = () => {
             {/* right side image */}
             <div className="border-4 border-amber-400 bg-green-50 rounded-full shadow-2xl">
 
-                <Image
-                    className="p-3 md:p-5 rounded-full w-72 md:w-80 lg:w-lg h-auto"
-                    src='/assets/me.jpg'
-                    height={500}
-                    width={500}
-                    alt="img"
+                <Image className="p-3 md:p-5 rounded-full w-72 md:w-80 lg:w-lg h-auto"
+                    src='/assets/me2.jpeg' height={500} width={500} alt="img"
                 />
 
             </div>
