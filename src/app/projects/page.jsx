@@ -17,6 +17,13 @@ const Projects = () => {
 
                 {[
                     {
+                        title: 'TicketBari',
+                        desc: 'A full-stack ticket booking platform with role-based dashboards, Stripe payment, and real-time booking management.',
+                        img: '/assets/project5.png',
+                        live: 'https://ticket-bari-nu.vercel.app/',
+                        github: 'https://github.com/Farid-256/Ticket-Bari'
+                    },
+                    {
                         title: "PetNest",
                         desc: "A full-stack pet adoption platform with authentication, dashboard, adoption requests, and owner management system.",
                         img: "/assets/project4.jpeg",
@@ -37,13 +44,6 @@ const Projects = () => {
                         live: "https://wonderful-bienenstitch-f87c74.netlify.app/",
                         github: "https://github.com/Farid-256/Digi-Tools-Platform"
                     },
-                    {
-                        title: "KeenKeeper",
-                        desc: "A modern platform for organizing and maintaining valuable personal relationships.",
-                        img: "/assets/project3.jpeg",
-                        live: "https://warm-dieffenbachia-c078a2.netlify.app/",
-                        github: "https://github.com/Farid-256/Batch-13-Assignment-seven"
-                    }
                  
                 ].map((project, index) => (
 
