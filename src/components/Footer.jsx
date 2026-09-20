@@ -10,8 +10,8 @@ const Footer = () => {
 
                 <div className="space-y-5">
 
-                    <h2 className="text-3xl md:text-4xl font-bold text-white">
-                        M. Farid <span className="text-orange-500">Iqbal</span>
+                    <h2 className="text-2xl md:text-4xl font-bold text-white">
+                        MD. Farid <span className="text-orange-500">Iqubal Shakil</span>
                     </h2>
 
                     <p className="text-gray-300 leading-7 md:leading-8">
@@ -63,7 +63,7 @@ const Footer = () => {
 
                     <div className="space-y-3 text-gray-300">
 
-                        <p>Email: faridiqubal34fx@gmail.com</p>
+                        <p>Email: faridiqubal334@gmail.com</p>
 
                         <p>WhatsApp: +88 01992-811801</p>
 
@@ -79,7 +79,7 @@ const Footer = () => {
             <div className="border-t border-gray-700 mt-12 pt-8 text-center">
 
                 <span className="text-gray-400 text-sm md:text-base flex items-center justify-center gap-2">
-                    <FaRegCopyright /> 2026 M. Farid Iqbal. All Rights Reserved.
+                    <FaRegCopyright /> 2026 MD. Farid Iqubal Shakil. All Rights Reserved.
                 </span>
 
             </div>
