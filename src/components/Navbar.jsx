@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation"
 const Navbar = () => {
 
     const nameFirst = '<M. Farid'
-    const nameLast = 'Iqbal/>'
+    const nameLast = 'Iqubal/>'
 
     const pathName = usePathname()
 
