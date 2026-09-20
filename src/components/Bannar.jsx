@@ -30,15 +30,15 @@ const Bannar = () => {
                 {/* buttons */}
                 <div className="flex flex-wrap justify-center lg:justify-start items-center gap-5">
 
-                    <Link href='/skills'>
+                    <Link href='/projects'>
                         <button className="px-6 py-3 bg-blue-800 text-white rounded-xl cursor-pointer hover:bg-blue-600 transition-all duration-300 hover:scale-105">
-                            View Skills
+                            View Projects
                         </button>
                     </Link>
 
-                    <Link href='/contact'>
+                    <Link href='https://drive.google.com/file/d/1rbqynsMJbGzsvVVTTrB91Ex1ljfnNri-/view?usp=sharing' target="_blank" rel="noopener noreferrer">
                         <button className="px-6 py-3 bg-blue-800 text-white rounded-xl cursor-pointer hover:bg-blue-600 transition-all duration-300 hover:scale-105">
-                            Contact Me
+                            Resume
                         </button>
                     </Link>
 

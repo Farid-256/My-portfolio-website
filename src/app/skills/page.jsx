@@ -1,83 +1,61 @@
 import Image from "next/image";
 
+const skills = [
+    { name: "HTML", icon: "/assets/Html.jpg" },
+    { name: "CSS", icon: "/assets/css3.jpg" },
+    { name: "Tailwind", icon: "/assets/Tailwind.jpg" },
+    { name: "JavaScript", icon: "/assets/JavaScript.jpg" },
+    { name: "TypeScript", icon: "/assets/type.jpg" },
+    { name: "React", icon: "/assets/React logo.jpg" },
+    { name: "Next.js", icon: "/assets/Next.jpg" },
+    { name: "Node.js", icon: "/assets/Node.jpg" },
+    { name: "Express", icon: "/assets/ExpressJS.jpg" },
+    { name: "MongoDB", icon: "/assets/MongoDb.jpg" },
+    { name: "Git", icon: "/assets/Git.jpg" },
+    { name: "GitHub", icon: "/assets/GitHub.jpg" },
+    { name: "Figma", icon: "/assets/Figma.jpg" },
+];
+
 const SkillsPage = () => {
     return (
-        <section className="px-5 md:px-10 lg:px-20 py-16 bg-white">
+        <section className="py-16 px-5 md:px-10 lg:px-20">
 
-
+            {/* Heading */}
             <div className="text-center mb-16">
-
                 <h2 className="text-4xl md:text-5xl font-bold text-blue-600">
                     My Skills
                 </h2>
-
                 <div className="w-32 md:w-40 h-1 bg-orange-500 mx-auto mt-4 rounded-full"></div>
-
             </div>
 
-  
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+            {/* Skills Grid */}
+            <div className="max-w-6xl mx-auto flex flex-wrap justify-center gap-6 md:gap-8">
+                {skills.map((skill) => (
+                    <div
+                        key={skill.name}
+                        className="flex flex-col items-center gap-3 group"
+                    >
+                        {/* Circular Badge */}
+                        <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-[#1a1a1a] border border-gray-700 flex items-center justify-center overflow-hidden transition-all duration-300 group-hover:scale-110 group-hover:border-blue-500 group-hover:shadow-lg group-hover:shadow-blue-500/30">
+                            <Image
+                                src={skill.icon}
+                                alt={skill.name}
+                                width={60}
+                                height={60}
+                                className="object-contain w-10 h-10 md:w-12 md:h-12"
+                            />
+                        </div>
 
-
-                <div className="flex flex-col items-center justify-center bg-cyan-900 rounded-2xl p-6 hover:bg-cyan-950 transition-all duration-300 hover:scale-105">
-
-                    <Image src='/assets/Html.jpg' height={80} width={80} alt="html" />
-                    <h3 className="text-gray-300 text-xl mt-3">HTML5</h3>
-
-                </div>
-
-                <div className="flex flex-col items-center justify-center bg-cyan-900 rounded-2xl p-6 hover:bg-cyan-950 transition-all duration-300 hover:scale-105">
-
-                    <Image src='/assets/css3.jpg' height={80} width={80} alt="css" />
-                    <h3 className="text-gray-300 text-xl mt-3">CSS3</h3>
-
-                </div>
-
-                <div className="flex flex-col items-center justify-center bg-cyan-900 rounded-2xl p-6 hover:bg-cyan-950 transition-all duration-300 hover:scale-105">
-
-                    <Image src='/assets/Tailwind.jpg' height={80} width={80} alt="tailwind" />
-                    <h3 className="text-gray-300 text-xl mt-3">Tailwind CSS</h3>
-
-                </div>
-
-                <div className="flex flex-col items-center justify-center bg-cyan-900 rounded-2xl p-6 hover:bg-cyan-950 transition-all duration-300 hover:scale-105">
-
-                    <Image src='/assets/JavaScript.jpg' height={80} width={80} alt="js" />
-                    <h3 className="text-gray-300 text-xl mt-3">JavaScript</h3>
-
-                </div>
-
-                <div className="flex flex-col items-center justify-center bg-cyan-900 rounded-2xl p-6 hover:bg-cyan-950 transition-all duration-300 hover:scale-105">
-
-                    <Image src='/assets/React logo.jpg' height={80} width={80} alt="react" />
-                    <h3 className="text-gray-300 text-xl mt-3">React</h3>
-
-                </div>
-
-                <div className="flex flex-col items-center justify-center bg-cyan-900 rounded-2xl p-6 hover:bg-cyan-950 transition-all duration-300 hover:scale-105">
-
-                    <Image src='/assets/Next.jpg' height={80} width={80} alt="next" />
-                    <h3 className="text-gray-300 text-xl mt-3">Next.js</h3>
-
-                </div>
-
-                <div className="flex flex-col items-center justify-center bg-cyan-900 rounded-2xl p-6 hover:bg-cyan-950 transition-all duration-300 hover:scale-105">
-
-                    <Image src='/assets/ExpressJS.jpg' height={80} width={80} alt="express" />
-                    <h3 className="text-gray-300 text-xl mt-3">Express.js</h3>
-
-                </div>
-
-                <div className="flex flex-col items-center justify-center bg-cyan-900 rounded-2xl p-6 hover:bg-cyan-950 transition-all duration-300 hover:scale-105">
-
-                    <Image src='/assets/type.jpg' height={80} width={80} alt="ts" />
-                    <h3 className="text-gray-300 text-xl mt-3">TypeScript</h3>
-
-                </div>
-
+                        {/* Label */}
+                        <h3 className="text-xs md:text-sm text-gray-400 uppercase tracking-wider font-medium">
+                            {skill.name}
+                        </h3>
+                    </div>
+                ))}
             </div>
+
         </section>
     );
 };
 
-export default SkillsPage
+export default SkillsPage;

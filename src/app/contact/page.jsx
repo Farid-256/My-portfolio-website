@@ -40,7 +40,7 @@ const Contact = () => {
                     <div className="space-y-3">
 
                         <p className="text-base md:text-lg text-gray-700">
-                            Email: faridiqubal34fx@gmail.com
+                            Email: faridiqubal334@gmail.com
                         </p>
 
                         <p className="text-base md:text-lg text-gray-700">
