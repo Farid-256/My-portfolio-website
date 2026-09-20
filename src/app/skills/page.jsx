@@ -23,7 +23,7 @@ const SkillsPage = () => {
             {/* Heading */}
             <div className="text-center mb-16">
                 <h2 className="text-4xl md:text-5xl font-bold text-blue-600">
-                    My Skills
+                    Skills
                 </h2>
                 <div className="w-32 md:w-40 h-1 bg-orange-500 mx-auto mt-4 rounded-full"></div>
             </div>
