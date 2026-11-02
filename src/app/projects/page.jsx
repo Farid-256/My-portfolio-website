@@ -16,6 +16,13 @@ const Projects = () => {
 
 
                 {[
+                     {
+                        title: "Oumboo",
+                        desc: "A modern e-commerce web application with responsive design.",
+                        img: "/assets/project6.png",
+                        live: "https://kinbo-steel.vercel.app/",
+                        github: "https://github.com/Farid-256/Kinbo-Client"
+                    },
                     {
                         title: 'TicketBari',
                         desc: 'A full-stack ticket booking platform with role-based dashboards, Stripe payment, and real-time booking management.',
@@ -36,14 +43,7 @@ const Projects = () => {
                         img: "/assets/project1.jpeg",
                         live: "https://batch-13-assignment-eight.vercel.app/",
                         github: "https://github.com/Farid-256/Batch-13-Assignment-eight"
-                    },
-                    {
-                        title: "Digi-Tools-Platform",
-                        desc: "A modern e-commerce web application with responsive design.",
-                        img: "/assets/project2.jpeg",
-                        live: "https://wonderful-bienenstitch-f87c74.netlify.app/",
-                        github: "https://github.com/Farid-256/Digi-Tools-Platform"
-                    },
+                    }
                  
                 ].map((project, index) => (
 
